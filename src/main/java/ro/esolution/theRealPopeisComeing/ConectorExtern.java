@@ -57,7 +57,7 @@ public class ConectorExtern {
         biserici.add(sfantulRadu);
 
         for(int i=0;i< biserici.size();i++) {
-            if (biserici.get(i).luna == month)
+            if (biserici.get(i).luna.equals(month))
             {
                 raspuns += biserici.get(i).nume + " ";
 
